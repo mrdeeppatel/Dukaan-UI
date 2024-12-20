@@ -1,7 +1,7 @@
 const Overview = () => {
 
     return <div className="flex justify-between py-4 items-center">
-        <div className=" text-2xl font-semibold">
+        <div className=" text-xl font-medium">
 
 
             Overview

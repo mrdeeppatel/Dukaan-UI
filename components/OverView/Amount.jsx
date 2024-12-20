@@ -5,7 +5,7 @@ const RevenueCard = ({
 
 }) => {
 
-    return <div className=" shadow-[0px_0px_30px_1px_#e2e8f0] p-3 rounded-md hover:bg-zinc-50 h-32">
+    return <div className="shadow-[0px_0px_30px_1px_#e2e8f0] p-3 rounded-md hover:bg-zinc-50 h-32 md:h-40">
 
         <div className="p-3 text-gray-700">
             {title} ?

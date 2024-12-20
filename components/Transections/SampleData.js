@@ -1,6 +1,6 @@
 // Successful - 1
-//Processing -2
-//Failed -3
+//Processing  - 2
+//Failed      - 3
 export const SampleData = [
     {
       orderID: "#281209",
