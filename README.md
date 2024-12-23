@@ -14,7 +14,7 @@
 - A sidebar for route handling.
 
 ## How to run
-1. Use this Link [Link Here](https://dukaan-9xupsv69f-deeps-projects-b8ea0469.vercel.app/)
+1. Use this Link [Link Here](https://dukaan-ui-deeps-projects-b8ea0469.vercel.app/)
 _OR_
 2. Download this repository and open it in the terminal.
 Run: `npm run dev`
