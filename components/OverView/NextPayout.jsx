@@ -2,7 +2,7 @@ const NextPayout = () => {
 
     return <div className="bg-[#146EB4] rounded-md text-white shadow-[0px_0px_30px_1px_#e2e8f0]">
         <div className=" pt-6 pl-6">
-            Next Payoutm ?
+            Next Payout ?
         </div>
 
         <div className=" p-6 flex justify-between items-center">

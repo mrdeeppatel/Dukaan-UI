@@ -9,7 +9,7 @@ export const TransectionSearch = () => {
             </svg>
             <input type="text" className=" focus: outline-none" placeholder="Order ID Treansection ID" />
         </div>
-        <div className=" px-8 py-4">
+        <div className=" px-1 py-4 text-xs md:text-base md:px-8  ">
 
             <table className="w-full">
                 <thead className="p-9">
@@ -27,7 +27,7 @@ export const TransectionSearch = () => {
 
                     {SampleData.map((obj) => {
                         return <tr className=" text-[#4D4D4D] border-b-2">
-                            <td className=" text-left py-4 text-[#146EB4]">{obj.orderID}</td>
+                            <td className=" py-4 text-[#146EB4]">{obj.orderID}</td>
 
                             <td className="">
                                 {/* <div className="flex justify-center p-3"> */}
@@ -37,8 +37,8 @@ export const TransectionSearch = () => {
                                 </div>
                                 {/* </div> */}
                             </td>
-                            <td className="text-left py-4"> {obj.transactionID}</td>
-                            <td className=" text-left py-4">{obj.refundDate}</td>
+                            <td > {obj.transactionID}</td>
+                            <td >{obj.refundDate}</td>
                             <td className=" text-right py-4">{obj.orderAmount}</td>
                         </tr>
                     })}
